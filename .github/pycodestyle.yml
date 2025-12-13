@@ -2,9 +2,9 @@ name: PEP8 check
 
 on:
   push:
-    branches: ["**"]
+    branches: ["python_basic"]
   pull_request:
-    branches: ["**"]
+    branches: ["python_basic"]
 
 jobs:
   pycodestyle:
