@@ -57,9 +57,7 @@ def brewery_factory(breweries: list) -> List[Brewery]:
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(
-        description="Pobieranie browarów z OpenBreweryDB"
-    )
+    parser = argparse.ArgumentParser(description="Pobieranie browarów z OpenBreweryDB")
     parser.add_argument(
         "--city",
         type=str,
